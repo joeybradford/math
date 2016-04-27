@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+// get argument values
+var op    =  process.argv[2],
+	num1  = +process.argv[3],
+	num2  = +process.argv[4];
+	math = require('./math');
